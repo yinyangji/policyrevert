@@ -1,1 +1,1 @@
-# policyrevert
+使用CIPolicy对系统进行扫描后会得到一个xml格式的policy,其中包括Deny、Allow的证书，通过ConvertFrom-CIPolicy可以将xml转换成bin，然后使用signtool进行签名，就可以获取系统能够使用的p7b,该脚本函数可以逆向p7b，重新展示成xml
